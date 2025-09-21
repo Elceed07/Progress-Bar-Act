@@ -8,21 +8,37 @@
   <body>
     <div class="container">
       <svg
-        width="80"
-        height="80"
-        viewBox="0 0 80 80"
+        width="120"
+        height="120"
+        viewBox="0 0 120 120"
         xmlns="http://www.w3.org/2000/svg"
       >
-        <circle
-          cx="40"
-          cy="40"
-          r="35"
-          stroke="#4caf50"
-          stroke-width="5"
-          fill="#e0e0e0"
+        <circle cx="60" cy="60" r="50" fill="#B76E79" />
+        <path
+          d="M30 60 Q60 20 90 60 Q60 100 30 60 Z"
+          fill="#98FF98"
+          opacity="0.7"
         />
-        <text x="40" y="45" text-anchor="middle" font-size="20" fill="#333">
-          Elceed
+        <rect
+          x="40"
+          y="40"
+          width="40"
+          height="40"
+          rx="12"
+          fill="#98FF98"
+          opacity="0.08"
+        />
+        <text
+          x="60"
+          y="68"
+          text-anchor="middle"
+          font-size="28"
+          font-family="'Segoe UI', 'Montserrat', 'Arial', sans-serif"
+          fill="#C9A0DC"
+          font-weight="bold"
+          letter-spacing="2"
+        >
+          Prodigy
         </text>
       </svg>
       <div class="input-group">
@@ -35,18 +51,18 @@
         <input type="text" placeholder="Middle initial" />
       </div>
       <div class="progress-group">
-        <label for="bar1" class="bar-label">Skill 1</label>
-        <progress id="bar1" value="30" max="100"></progress>
+        <label for="bar1" class="bar-label">HTML</label>
+        <progress id="bar1" value="40" max="100"></progress>
         <input type="number" placeholder="Enter value..." min="0" max="100" />
       </div>
       <div class="progress-group">
-        <label for="bar2" class="bar-label">Skill 2</label>
-        <progress id="bar2" value="60" max="100"></progress>
+        <label for="bar2" class="bar-label">Guitar</label>
+        <progress id="bar2" value="80" max="100"></progress>
         <input type="number" placeholder="Enter value..." min="0" max="100" />
       </div>
       <div class="progress-group">
-        <label for="bar3" class="bar-label">Skill 3</label>
-        <progress id="bar3" value="90" max="100"></progress>
+        <label for="bar3" class="bar-label">Editing</label>
+        <progress id="bar3" value="60" max="100"></progress>
         <input type="number" placeholder="Enter value..." min="0" max="100" />
       </div>
 
@@ -68,7 +84,7 @@
       <style>
         body {
           font-family: Arial, sans-serif;
-          background: #f9f9f9;
+          background: #b76e79;
           margin: 0;
           padding: 0;
           min-height: 100vh;
@@ -80,7 +96,7 @@
           max-width: 500px;
           width: 100%;
           margin: 0 auto;
-          background: #fff;
+          background: #2c1846;
           border-radius: 16px;
           box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
           padding: 40px 32px;
@@ -107,7 +123,7 @@
           display: block;
           font-weight: bold;
           margin-bottom: 12px;
-          color: #333;
+          color: #ffffff;
           font-size: 1.15em;
         }
         progress {
